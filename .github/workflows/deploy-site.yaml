@@ -36,12 +36,10 @@ jobs:
       - name: Build site
         run: yarn build
 
-        with:
-          source: ./
-          destination: ./_site
-
       - name: Upload static site artifact
         uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist/
 
 
   deploy:
