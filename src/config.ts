@@ -1,10 +1,10 @@
 export const SITE = {
-  title: "Astro Design System",
-  description: "Astro theme to build your design system fast.",
+  title: "SeaBotics UiA",
+  description: "Wiki page for documenting Seabotics' ASV family",
   defaultLanguage: "en_US",
-  twitter: "@jordienr",
-  github: "jordienr",
-  linkedin: "linkedinUsername",
+  //twitter: "@jordienr",
+  github: "SeaBotics",
+  linkedin: "seabotics",
 };
 
 export const OPEN_GRAPH = {
@@ -30,4 +30,7 @@ export const SIDEBAR = [
 
   { text: "Patterns", header: true },
   { text: "Introduction", link: "/patterns/introduction" },
+
+  { text: "Hugr Primus", header: true },
+  { text: "Introduction", link: "/hugr/primus" },
 ];
