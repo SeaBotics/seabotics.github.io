@@ -28,3 +28,4 @@ Desktop.ini
 # Zed editor
 # local editor overrides (commit .zed/settings.json to share team settings)
 .zed/
+.vscode/
